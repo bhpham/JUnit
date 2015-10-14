@@ -1,0 +1,25 @@
+package net.mv.suiteTest;
+
+import net.mv.expectedException.ExpectedExceptionTest;
+import net.mv.ignoreTest.IgnoreTest;
+import net.mv.timeTest.TimeTest;
+import net.mv.unitTest.JUnitTest;
+
+import org.junit.runner.RunWith;
+import org.junit.runners.Suite;
+
+/***
+ * 
+ * @author Binh Pham
+ * Bundle a few Unit test cases and run it together
+ */
+@RunWith(Suite.class)
+@Suite.SuiteClasses({
+	JUnitTest.class,
+	ExpectedExceptionTest.class,
+	IgnoreTest.class,
+	TimeTest.class
+})
+public class SuitTest {
+
+}

@@ -1,0 +1,11 @@
+package net.mv.expectedException;
+
+import org.junit.Test;
+
+public class JUnitTest2 {
+
+	@Test(expected = ArithmeticException.class)
+	public void divisionWithException() {
+		int num = 1/0;
+	}
+}

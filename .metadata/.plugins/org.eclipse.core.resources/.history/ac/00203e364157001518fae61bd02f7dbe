@@ -1,0 +1,5 @@
+package net.mv.regex.utils;
+
+public class DomainUtils {
+
+}

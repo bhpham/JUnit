@@ -1,0 +1,17 @@
+package net.mv.ignoreTest;
+
+import org.junit.Test;
+
+/***
+ * 
+ * @author Binh Pham
+ * Ignore certain methods for unit test
+ */
+public class IgnoreTest {
+
+	@Ignore("Not ready to run")
+	@Test
+	public void divisionWithException() {
+		System.out.println("Method is not ready yet!");
+	}
+}

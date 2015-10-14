@@ -1,0 +1,34 @@
+package net.mv.pojos;
+
+public class EmployeeDetails {
+
+	private String name;
+	private double monthlySalary;
+	private int age;
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public double getMonthlySalary() {
+		return monthlySalary;
+	}
+	public void setMonthlySalary(double monthlySalary) {
+		this.monthlySalary = monthlySalary;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	
+	
+	@Override
+	public String toString() {
+		return "EmployeeDetails [name=" + name + ", monthlySalary="
+				+ monthlySalary + ", age=" + age + "]";
+	}
+	
+}

@@ -1,0 +1,7 @@
+package net.mv.expectedException;
+
+public class JUnitTempTest1 {
+
+	String message = "Robert";
+	MessageUtil messageUtil = new MessageUtil();
+}

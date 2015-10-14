@@ -1,0 +1,5 @@
+package net.mv.pojos;
+
+public class EmployeeDetails {
+
+}

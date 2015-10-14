@@ -1,0 +1,21 @@
+package net.mv.suiteTest;
+
+import net.mv.expectedException.ExpectedExceptionTest;
+import net.mv.unitTest.JUnitTest;
+
+import org.junit.runner.RunWith;
+import org.junit.runners.Suite;
+
+/***
+ * 
+ * @author Binh Pham
+ * Bundle a few Unit test cases and run it together
+ */
+@RunWith(Suite.class)
+@Suite.SuiteClasses({
+	JUnitTest.class,
+	ExpectedExceptionTest.class
+})
+public class SuitTest {
+
+}

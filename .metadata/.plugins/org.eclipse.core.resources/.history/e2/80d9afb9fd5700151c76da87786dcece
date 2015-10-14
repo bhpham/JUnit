@@ -1,0 +1,11 @@
+package net.mv.ignoreTest;
+
+import org.junit.Test;
+
+public class JUnitTest3 {
+
+	@Test
+	public void ignoreThisMethod() {
+		System.out.println("This method is not ready yet");
+	}
+}

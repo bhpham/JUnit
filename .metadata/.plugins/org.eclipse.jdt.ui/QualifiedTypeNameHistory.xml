@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+<fullyQualifiedTypeName name="net.mv.unitTest.JUnitTest"/>
+<fullyQualifiedTypeName name="net.mv.expectedException.ExpectedExceptionTest"/>
+<fullyQualifiedTypeName name="net.mv.ignoreTest.IgnoreTest"/>
+<fullyQualifiedTypeName name="net.mv.timeTest.TimeTest"/>
+<fullyQualifiedTypeName name="com.sun.org.apache.xalan.internal.xsltc.runtime.Parameter"/>
+<fullyQualifiedTypeName name="org.junit.runners.Parameterized"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.regex.Pattern"/>
+<fullyQualifiedTypeName name="java.util.Collection"/>
+<fullyQualifiedTypeName name="org.junit.BeforeClass"/>
+<fullyQualifiedTypeName name="org.junit.AfterClass"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="org.junit.Ignore"/>
+<fullyQualifiedTypeName name="org.junit.runners.Suite"/>
+<fullyQualifiedTypeName name="org.junit.runners.Suite.SuiteClasses"/>
+<fullyQualifiedTypeName name="net.mv.basicUsage.JUnitTest1"/>
+<fullyQualifiedTypeName name="net.mv.expectedException.JUnitTest2"/>
+<fullyQualifiedTypeName name="org.junit.Assert"/>
+<fullyQualifiedTypeName name="org.junit.runner.JUnitCore"/>
+<fullyQualifiedTypeName name="org.junit.runner.Result"/>
+<fullyQualifiedTypeName name="org.junit.runner.notification.Failure"/>
+</qualifiedTypeNameHistroy>

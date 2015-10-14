@@ -1,0 +1,16 @@
+package net.mv.timeTest;
+
+import org.junit.Test;
+
+/***
+ * 
+ * @author Binh Pham
+ * Make sure the testing method will return after certain time
+ */
+public class TimeTest {
+
+	@Test(timeout = 20000)
+	public void infinity() {
+		while(true);
+	}
+}

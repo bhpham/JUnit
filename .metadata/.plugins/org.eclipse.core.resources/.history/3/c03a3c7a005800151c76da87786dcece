@@ -1,0 +1,16 @@
+package net.mv.businessLogic;
+
+import net.mv.pojos.EmployeeDetails;
+
+public class EmpBusinessLogic {
+
+	//Calculate the yearly salary of Employee
+	public double calculateYearlySalary(EmployeeDetails employeeDetails) {
+		double yearlySalary=0;
+	    yearlySalary = employeeDetails.getMonthlySalary() * 12;
+	    return yearlySalary;
+	}
+	
+	//Calculate appraisal amount of Employee
+	
+}

@@ -1,0 +1,5 @@
+package net.mv.match.utils;
+
+public class MathUtils {
+
+}
